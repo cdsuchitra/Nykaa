@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="url" value="https://www.nykaa.com/"></parameter>
+<parameter name ="mobilenum" value = "8778195182"></parameter>
+<parameter name ="cardnum" value ="3566000020000410"></parameter>
+<parameter name="expiry" value="02/26"></parameter>
+<parameter name="cvv" value="123"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.IPT.GIT.NYKAA.NykaaTestNGRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

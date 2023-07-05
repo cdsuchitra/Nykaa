@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-05T18:49:21 IST" name="Suite" finished-at="2023-07-05T18:51:13 IST" duration-ms="112083">
+    <groups>
+    </groups>
+    <test started-at="2023-07-05T18:49:21 IST" name="Test" finished-at="2023-07-05T18:51:13 IST" duration-ms="112083">
+      <class name="com.IPT.GIT.NYKAA.NykaaTestNGRunner">
+        <test-method is-config="true" signature="bLaunch(java.lang.String)[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:49:03 IST" name="bLaunch" finished-at="2023-07-05T18:49:21 IST" duration-ms="18309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.nykaa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bLaunch -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:49:21 IST" name="bfMethod" finished-at="2023-07-05T18:49:22 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="loginSearch()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:49:22 IST" name="loginSearch" finished-at="2023-07-05T18:50:01 IST" duration-ms="39386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSearch -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:50:01 IST" name="bfMethod" finished-at="2023-07-05T18:50:01 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="addBag()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:50:01 IST" name="addBag" finished-at="2023-07-05T18:50:20 IST" depends-on-methods="com.IPT.GIT.NYKAA.NykaaTestNGRunner.loginSearch" duration-ms="18728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBag -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:50:20 IST" name="bfMethod" finished-at="2023-07-05T18:50:20 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="goBag()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:50:20 IST" name="goBag" finished-at="2023-07-05T18:50:40 IST" depends-on-methods="com.IPT.GIT.NYKAA.NykaaTestNGRunner.addBag" duration-ms="20512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBag -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:50:40 IST" name="bfMethod" finished-at="2023-07-05T18:50:40 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="address()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:50:40 IST" name="address" finished-at="2023-07-05T18:50:41 IST" depends-on-methods="com.IPT.GIT.NYKAA.NykaaTestNGRunner.goBag" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- address -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:50:41 IST" name="bfMethod" finished-at="2023-07-05T18:50:41 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="payment(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:50:41 IST" name="payment" finished-at="2023-07-05T18:50:47 IST" depends-on-methods="com.IPT.GIT.NYKAA.NykaaTestNGRunner.address" duration-ms="6740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3566000020000410]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[02/26]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:50:47 IST" name="bfMethod" finished-at="2023-07-05T18:50:48 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="picture()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:50:48 IST" name="picture" finished-at="2023-07-05T18:51:02 IST" depends-on-methods="com.IPT.GIT.NYKAA.NykaaTestNGRunner.payment" duration-ms="14315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- picture -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:51:02 IST" name="bfMethod" finished-at="2023-07-05T18:51:02 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="clear()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:51:02 IST" name="clear" finished-at="2023-07-05T18:51:07 IST" depends-on-methods="com.IPT.GIT.NYKAA.NykaaTestNGRunner.picture" duration-ms="5242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:51:07 IST" name="bfMethod" finished-at="2023-07-05T18:51:07 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="signout()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:51:07 IST" name="signout" finished-at="2023-07-05T18:51:13 IST" depends-on-methods="com.IPT.GIT.NYKAA.NykaaTestNGRunner.clear" duration-ms="6277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signout -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.IPT.GIT.NYKAA.NykaaTestNGRunner@3f6f6701]" started-at="2023-07-05T18:51:14 IST" name="quit" finished-at="2023-07-05T18:51:15 IST" duration-ms="1761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.IPT.GIT.NYKAA.NykaaTestNGRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
